@@ -1,0 +1,21 @@
+Running complete Remotion self-test
+PASS: 25 source/document files scanned; no binding credentials or signed source URLs.
+
+> claude-video-motion@1.0.0 typecheck
+> tsc --noEmit
+
+
+> claude-video-motion@1.0.0 format:check
+> prettier --check src scripts docs *.json *.ts *.md
+
+Checking formatting...
+All matched files use Prettier code style!
+
+> claude-video-motion@1.0.0 test
+> node scripts/binding-contract.test.mjs
+
+PASS: 8 binding API contract cases, including 401/409, mismatches and credential redaction.
+PASS: complete 900-frame Remotion render
+PASS: 1280x720, 30 fps, 900 frames, 30 seconds, stereo AAC.
+PASS: 12 distinct keyframes; frame 510 renders identically twice.
+PASS: storyboard and render evidence saved in evidence/

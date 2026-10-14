@@ -1,0 +1,7 @@
+node_modules/
+out/
+.reference/
+.private/
+.DS_Store
+*.log
+.env*

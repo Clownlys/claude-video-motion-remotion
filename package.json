@@ -1,0 +1,32 @@
+{
+  "name": "claude-video-motion",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A hand-drawn video editor animation recreated with React, SVG and Remotion.",
+  "scripts": {
+    "start": "remotion studio src/index.ts",
+    "render": "remotion render src/index.ts ClaudeVideoMotion out/claude-video-motion.mp4 --concurrency=4",
+    "still": "remotion still src/index.ts ClaudeVideoMotion out/preview.png --frame=870",
+    "typecheck": "tsc --noEmit",
+    "selftest": "bash scripts/selftest.sh",
+    "format": "prettier --write src scripts docs *.json *.ts *.md",
+    "format:check": "prettier --check src scripts docs *.json *.ts *.md",
+    "test": "node scripts/binding-contract.test.mjs"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.465",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "remotion": "4.0.465"
+  },
+  "devDependencies": {
+    "@types/node": "22.15.30",
+    "@types/react": "19.1.0",
+    "@types/react-dom": "19.1.0",
+    "prettier": "3.6.2",
+    "typescript": "5.8.3"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

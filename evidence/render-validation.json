@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "composition": "ClaudeVideoMotion",
+  "width": 1280,
+  "height": 720,
+  "fps": 30,
+  "frames": 900,
+  "duration": 30,
+  "audio": {
+    "codec": "aac",
+    "channels": 2,
+    "duration": 30.058667
+  },
+  "deterministicFrame": 510,
+  "deterministicSha256": "e02720d2db20d43955d301e7e0e96c58f56ec62dd42bb2c80cb6e962f47c78f8",
+  "distinctKeyframes": 12,
+  "videoSha256": "c040b9de49adc6d6013868edeabc95c5afcfe7cf9deb82db8e1a53266cad5b2f"
+}
