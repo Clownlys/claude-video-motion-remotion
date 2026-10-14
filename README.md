@@ -54,3 +54,7 @@ A 409 stops without changing existing bindings; a 401 requires refreshing the cr
 This recreation approximates the original drawing geometry, handwriting and motion curves. Reference illustrations and audio remain the property of their respective owners; no license to those materials is asserted by this repository. Font licenses are included separately. Remotion has its own [license terms](https://www.remotion.dev/docs/license).
 
 Signed video addresses and binding credentials are intentionally absent from Git. `.reference/`, `.private/`, `.env*` and rendered video output are ignored.
+
+## Published binding
+
+The public repository is https://github.com/Clownlys/claude-video-motion-remotion. Motionface returned HTTP 200 for recording `e3ee409a-50f7-4b4a-af27-288226e47a57` and this exact repository root URL. The sanitized result is in `evidence/binding.json`. A clean Git archive was installed with `npm ci` and passed typechecking and all eight contract tests.

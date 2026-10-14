@@ -1,0 +1,4 @@
+PASS: clean git archive installs from npm ci.
+PASS: clean install TypeScript check.
+PASS: clean install 8 binding API contract tests.
+The check used only committed files exported with git archive HEAD.

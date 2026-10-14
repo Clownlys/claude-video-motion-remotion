@@ -6,6 +6,6 @@ Lin requested a complete Remotion recreation, public GitHub source repository an
 - [x] Complete render and selected keyframe visual inspection pass.
 - [x] TypeScript, output metadata, deterministic frame checks and credential scan pass.
 - [x] README, lockfile, fonts, audio and scripts included.
-- [ ] Public GitHub repository exists and remote HEAD equals local HEAD.
-- [ ] Binding response matches recording ID and repository root URL.
+- [x] Public GitHub repository exists and remote HEAD equals local HEAD.
+- [x] Binding response matches recording ID and repository root URL.
 - [x] Independent review completed using a different model family, if available.
